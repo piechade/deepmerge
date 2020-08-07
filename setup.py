@@ -17,8 +17,6 @@ install_requires = [
 tests_require = []
 
 setup(name='deepmerge',
-      setup_requires=["vcver"],
-      vcver={"is_release": is_release, "path": base},
       description='a toolset to deeply merge python dictionaries.',
       long_description=open(README_PATH).read(),
       author='Yusuke Tsutsumi',
